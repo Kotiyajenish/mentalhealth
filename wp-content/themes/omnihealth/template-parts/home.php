@@ -6,30 +6,27 @@
  */
 get_header(); ?>
 <section class="hero-section">
+    <div class="header-banner-right">
+        <img src="http://localhost/mentalhealth/wp-content/uploads/2026/04/OverlayBlur.png" alt="">
+    </div>
     <div class="hero-container">
-
-        <!-- Left Content -->
         <div class="hero-content">
-            <h1>
-                Mental Health EHR Software <br>
-                for Therapists and <br>
-                Psychiatrists
-            </h1>
-
+           <h1>Mental Health EHR Software <br> for Therapists and <br> Psychiatrists</h1>
             <p>
                 Deliver better care without being slowed by documentation or billing.
                 OmniMD’s Mental Health EHR streamlines therapy and psychiatric workflows,
                 telepsychiatry, patient engagement, and billing, all in one secure platform.
             </p>
-
             <a href="#" class="hero-btn">Book a Demo</a>
         </div>
-
-        <!-- Right Image -->
+        
         <div class="hero-image">
             <img src="http://localhost/mentalhealth/wp-content/uploads/2026/04/Artwork.jpg" alt="Therapy Session">
         </div>
 
+    </div>
+    <div class="header-banner-left">
+        <img src="http://localhost/mentalhealth/wp-content/uploads/2026/04/OverlayBlur.png" alt="">
     </div>
 </section>
 <section class="bh-section">
