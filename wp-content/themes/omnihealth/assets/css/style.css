@@ -1,5 +1,13 @@
+ @font-face {
+   font-family: 'MyFont';
+   src: url('../font/Helvetica.ttf') format('ttf'),
+     url('../font/Helvetica.ttf') format('ttf');
+   font-weight: normal;
+   font-style: normal;
+ }
+
  body {
-   font-family: Arial, sans-serif;
+   font-family: Helvetica;
    background: #f2f2f2;
    margin: 0;
    padding: 0;
@@ -57,6 +65,32 @@
 
  .hero-section {
    padding: 80px 20px;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .header-banner-right {
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: 0;
+ }
+
+ .header-banner-right img {
+   max-width: 300px;
+   height: auto;
+ }
+
+ .header-banner-left {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   z-index: 0;
+ }
+
+ .header-banner-right img,
+ .header-banner-left img {
+   opacity: 0.5;
  }
 
  .hero-container {
@@ -282,9 +316,11 @@
  .compliance-section {
    background: #ffffff;
  }
-h2.practices-text-center.mb-5.fw-bold {
-    text-align: center;
-}
+
+ h2.practices-text-center.mb-5.fw-bold {
+   text-align: center;
+ }
+
  section.compliance-section .text-center {
    text-align: center !important;
    background: #F9FBFB;
